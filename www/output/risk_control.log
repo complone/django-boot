@@ -1,0 +1,399 @@
+2020-01-21 15:41:14,397|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\views\debug.py:935: DeprecationWarning: invalid escape sequence \-
+  """
+
+2020-01-21 15:41:14,554|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\http.py:210: DeprecationWarning: invalid escape sequence \<
+  """
+
+2020-01-21 15:41:14,584|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\template\base.py:507: DeprecationWarning: invalid escape sequence \w
+  'var_chars': "\w\.",
+
+2020-01-21 15:41:14,627|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\template\defaulttags.py:1260: DeprecationWarning: invalid escape sequence \d
+  """
+
+2020-01-21 15:41:14,651|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\template\defaultfilters.py:262: DeprecationWarning: invalid escape sequence \d
+  return re.sub("\d([A-Z])", lambda m: m.group(0).lower(), t)
+
+2020-01-21 15:41:14,763|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\regex_helper.py:68: DeprecationWarning: invalid escape sequence \w
+  """
+
+2020-01-21 15:41:14,764|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\regex_helper.py:210: DeprecationWarning: invalid escape sequence \w
+  """
+
+2020-01-21 15:41:15,051|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\db\backends\__init__.py:817: DeprecationWarning: invalid escape sequence \%
+  return force_text(x).replace("\\", "\\\\").replace("%", "\%").replace("_", "\_")
+
+2020-01-21 15:41:15,051|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\db\backends\__init__.py:817: DeprecationWarning: invalid escape sequence \_
+  return force_text(x).replace("\\", "\\\\").replace("%", "\%").replace("_", "\_")
+
+2020-01-21 15:41:15,089|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\dispatch\dispatcher.py:85: DeprecationWarning: inspect.getargspec() is deprecated since Python 3.0, use inspect.signature() or inspect.getfullargspec()
+  argspec = inspect.getargspec(receiver)
+
+2020-01-21 15:41:15,343|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\db\models\options.py:79: DeprecationWarning: invalid escape sequence \.
+  self.installed = re.sub('\.models$', '', cls.__module__) in settings.INSTALLED_APPS
+
+2020-01-21 15:41:15,416|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\template\base.py:1108: DeprecationWarning: inspect.getargspec() is deprecated since Python 3.0, use inspect.signature() or inspect.getfullargspec()
+  params, varargs, varkw, defaults = getargspec(func)
+
+2020-01-21 15:41:15,426|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\itercompat.py:30: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+  return isinstance(x, collections.Iterator)
+
+2020-01-21 15:41:15,569|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\contrib\auth\models.py:381: DeprecationWarning: invalid escape sequence \w
+  validators.RegexValidator(re.compile('^[\w.@+-]+$'), _('Enter a valid username.'), 'invalid')
+
+2020-01-21 15:41:15,599|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\client.py:38: DeprecationWarning: invalid escape sequence \w
+  CONTENT_TYPE_RE = re.compile('.*; charset=([\w\d-]+);?')
+
+2020-01-21 15:41:15,681|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:729: DeprecationWarning: invalid escape sequence \S
+  _INDENT_RE = re.compile('^([ ]*)(?=\S)', re.MULTILINE)
+
+2020-01-21 15:41:15,682|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:1038: DeprecationWarning: invalid escape sequence \s
+  pat = re.compile('(^|.*:)\s*\w*("|\')')
+
+2020-01-21 15:41:15,683|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:1572: DeprecationWarning: invalid escape sequence \s
+  want = re.sub('(?m)^%s\s*?$' % re.escape(BLANKLINE_MARKER),
+
+2020-01-21 15:41:15,683|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:1576: DeprecationWarning: invalid escape sequence \s
+  got = re.sub('(?m)^\s*?$', '', got)
+
+2020-01-21 15:41:15,728|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\html.py:14: DeprecationWarning: invalid escape sequence \s
+  WHITESPACE = re.compile('\s+')
+
+2020-01-21 15:41:15,736|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\html_parser.py:17: DeprecationWarning: invalid escape sequence \s
+  tagfind = re.compile('([a-zA-Z][-.a-zA-Z0-9:_]*)(?:\s|/(?!>))*')
+
+2020-01-21 16:03:16,419|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\regex_helper.py:68: DeprecationWarning: invalid escape sequence \w
+  """
+
+2020-01-21 16:03:16,419|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\regex_helper.py:210: DeprecationWarning: invalid escape sequence \w
+  """
+
+2020-01-21 16:03:16,499|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\db\backends\__init__.py:817: DeprecationWarning: invalid escape sequence \%
+  return force_text(x).replace("\\", "\\\\").replace("%", "\%").replace("_", "\_")
+
+2020-01-21 16:03:16,500|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\db\backends\__init__.py:817: DeprecationWarning: invalid escape sequence \_
+  return force_text(x).replace("\\", "\\\\").replace("%", "\%").replace("_", "\_")
+
+2020-01-21 16:03:16,511|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\dispatch\dispatcher.py:85: DeprecationWarning: inspect.getargspec() is deprecated since Python 3.0, use inspect.signature() or inspect.getfullargspec()
+  argspec = inspect.getargspec(receiver)
+
+2020-01-21 16:03:16,589|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\db\models\options.py:79: DeprecationWarning: invalid escape sequence \.
+  self.installed = re.sub('\.models$', '', cls.__module__) in settings.INSTALLED_APPS
+
+2020-01-21 16:03:16,602|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\template\base.py:1108: DeprecationWarning: inspect.getargspec() is deprecated since Python 3.0, use inspect.signature() or inspect.getfullargspec()
+  params, varargs, varkw, defaults = getargspec(func)
+
+2020-01-21 16:03:16,606|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\itercompat.py:30: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+  return isinstance(x, collections.Iterator)
+
+2020-01-21 16:03:16,643|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\contrib\auth\models.py:381: DeprecationWarning: invalid escape sequence \w
+  validators.RegexValidator(re.compile('^[\w.@+-]+$'), _('Enter a valid username.'), 'invalid')
+
+2020-01-21 16:03:16,651|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\client.py:38: DeprecationWarning: invalid escape sequence \w
+  CONTENT_TYPE_RE = re.compile('.*; charset=([\w\d-]+);?')
+
+2020-01-21 16:03:16,679|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:729: DeprecationWarning: invalid escape sequence \S
+  _INDENT_RE = re.compile('^([ ]*)(?=\S)', re.MULTILINE)
+
+2020-01-21 16:03:16,680|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:1038: DeprecationWarning: invalid escape sequence \s
+  pat = re.compile('(^|.*:)\s*\w*("|\')')
+
+2020-01-21 16:03:16,680|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:1572: DeprecationWarning: invalid escape sequence \s
+  want = re.sub('(?m)^%s\s*?$' % re.escape(BLANKLINE_MARKER),
+
+2020-01-21 16:03:16,681|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:1576: DeprecationWarning: invalid escape sequence \s
+  got = re.sub('(?m)^\s*?$', '', got)
+
+2020-01-21 16:03:16,712|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\html.py:14: DeprecationWarning: invalid escape sequence \s
+  WHITESPACE = re.compile('\s+')
+
+2020-01-21 16:03:16,714|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\html_parser.py:17: DeprecationWarning: invalid escape sequence \s
+  tagfind = re.compile('([a-zA-Z][-.a-zA-Z0-9:_]*)(?:\s|/(?!>))*')
+
+2020-01-21 16:15:44,339|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\regex_helper.py:68: DeprecationWarning: invalid escape sequence \w
+  """
+
+2020-01-21 16:15:44,339|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\regex_helper.py:210: DeprecationWarning: invalid escape sequence \w
+  """
+
+2020-01-21 16:15:44,408|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\db\backends\__init__.py:817: DeprecationWarning: invalid escape sequence \%
+  return force_text(x).replace("\\", "\\\\").replace("%", "\%").replace("_", "\_")
+
+2020-01-21 16:15:44,408|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\db\backends\__init__.py:817: DeprecationWarning: invalid escape sequence \_
+  return force_text(x).replace("\\", "\\\\").replace("%", "\%").replace("_", "\_")
+
+2020-01-21 16:15:44,419|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\dispatch\dispatcher.py:85: DeprecationWarning: inspect.getargspec() is deprecated since Python 3.0, use inspect.signature() or inspect.getfullargspec()
+  argspec = inspect.getargspec(receiver)
+
+2020-01-21 16:15:44,494|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\db\models\options.py:79: DeprecationWarning: invalid escape sequence \.
+  self.installed = re.sub('\.models$', '', cls.__module__) in settings.INSTALLED_APPS
+
+2020-01-21 16:15:44,509|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\template\base.py:1108: DeprecationWarning: inspect.getargspec() is deprecated since Python 3.0, use inspect.signature() or inspect.getfullargspec()
+  params, varargs, varkw, defaults = getargspec(func)
+
+2020-01-21 16:15:44,512|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\itercompat.py:30: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+  return isinstance(x, collections.Iterator)
+
+2020-01-21 16:15:44,544|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\contrib\auth\models.py:381: DeprecationWarning: invalid escape sequence \w
+  validators.RegexValidator(re.compile('^[\w.@+-]+$'), _('Enter a valid username.'), 'invalid')
+
+2020-01-21 16:15:44,553|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\client.py:38: DeprecationWarning: invalid escape sequence \w
+  CONTENT_TYPE_RE = re.compile('.*; charset=([\w\d-]+);?')
+
+2020-01-21 16:15:44,583|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:729: DeprecationWarning: invalid escape sequence \S
+  _INDENT_RE = re.compile('^([ ]*)(?=\S)', re.MULTILINE)
+
+2020-01-21 16:15:44,584|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:1038: DeprecationWarning: invalid escape sequence \s
+  pat = re.compile('(^|.*:)\s*\w*("|\')')
+
+2020-01-21 16:15:44,585|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:1572: DeprecationWarning: invalid escape sequence \s
+  want = re.sub('(?m)^%s\s*?$' % re.escape(BLANKLINE_MARKER),
+
+2020-01-21 16:15:44,586|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:1576: DeprecationWarning: invalid escape sequence \s
+  got = re.sub('(?m)^\s*?$', '', got)
+
+2020-01-21 16:15:44,617|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\html.py:14: DeprecationWarning: invalid escape sequence \s
+  WHITESPACE = re.compile('\s+')
+
+2020-01-21 16:15:44,620|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\html_parser.py:17: DeprecationWarning: invalid escape sequence \s
+  tagfind = re.compile('([a-zA-Z][-.a-zA-Z0-9:_]*)(?:\s|/(?!>))*')
+
+2020-01-21 16:15:50,799|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\regex_helper.py:68: DeprecationWarning: invalid escape sequence \w
+  """
+
+2020-01-21 16:15:50,799|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\regex_helper.py:210: DeprecationWarning: invalid escape sequence \w
+  """
+
+2020-01-21 16:15:50,876|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\db\backends\__init__.py:817: DeprecationWarning: invalid escape sequence \%
+  return force_text(x).replace("\\", "\\\\").replace("%", "\%").replace("_", "\_")
+
+2020-01-21 16:15:50,876|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\db\backends\__init__.py:817: DeprecationWarning: invalid escape sequence \_
+  return force_text(x).replace("\\", "\\\\").replace("%", "\%").replace("_", "\_")
+
+2020-01-21 16:15:50,887|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\dispatch\dispatcher.py:85: DeprecationWarning: inspect.getargspec() is deprecated since Python 3.0, use inspect.signature() or inspect.getfullargspec()
+  argspec = inspect.getargspec(receiver)
+
+2020-01-21 16:15:50,976|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\db\models\options.py:79: DeprecationWarning: invalid escape sequence \.
+  self.installed = re.sub('\.models$', '', cls.__module__) in settings.INSTALLED_APPS
+
+2020-01-21 16:15:50,989|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\template\base.py:1108: DeprecationWarning: inspect.getargspec() is deprecated since Python 3.0, use inspect.signature() or inspect.getfullargspec()
+  params, varargs, varkw, defaults = getargspec(func)
+
+2020-01-21 16:15:50,993|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\itercompat.py:30: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+  return isinstance(x, collections.Iterator)
+
+2020-01-21 16:15:51,025|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\contrib\auth\models.py:381: DeprecationWarning: invalid escape sequence \w
+  validators.RegexValidator(re.compile('^[\w.@+-]+$'), _('Enter a valid username.'), 'invalid')
+
+2020-01-21 16:15:51,032|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\client.py:38: DeprecationWarning: invalid escape sequence \w
+  CONTENT_TYPE_RE = re.compile('.*; charset=([\w\d-]+);?')
+
+2020-01-21 16:15:51,058|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:729: DeprecationWarning: invalid escape sequence \S
+  _INDENT_RE = re.compile('^([ ]*)(?=\S)', re.MULTILINE)
+
+2020-01-21 16:15:51,058|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:1038: DeprecationWarning: invalid escape sequence \s
+  pat = re.compile('(^|.*:)\s*\w*("|\')')
+
+2020-01-21 16:15:51,059|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:1572: DeprecationWarning: invalid escape sequence \s
+  want = re.sub('(?m)^%s\s*?$' % re.escape(BLANKLINE_MARKER),
+
+2020-01-21 16:15:51,059|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:1576: DeprecationWarning: invalid escape sequence \s
+  got = re.sub('(?m)^\s*?$', '', got)
+
+2020-01-21 16:15:51,090|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\html.py:14: DeprecationWarning: invalid escape sequence \s
+  WHITESPACE = re.compile('\s+')
+
+2020-01-21 16:15:51,093|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\html_parser.py:17: DeprecationWarning: invalid escape sequence \s
+  tagfind = re.compile('([a-zA-Z][-.a-zA-Z0-9:_]*)(?:\s|/(?!>))*')
+
+2020-01-21 16:17:55,308|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\regex_helper.py:68: DeprecationWarning: invalid escape sequence \w
+  """
+
+2020-01-21 16:17:55,309|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\regex_helper.py:210: DeprecationWarning: invalid escape sequence \w
+  """
+
+2020-01-21 16:17:55,378|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\db\backends\__init__.py:817: DeprecationWarning: invalid escape sequence \%
+  return force_text(x).replace("\\", "\\\\").replace("%", "\%").replace("_", "\_")
+
+2020-01-21 16:17:55,379|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\db\backends\__init__.py:817: DeprecationWarning: invalid escape sequence \_
+  return force_text(x).replace("\\", "\\\\").replace("%", "\%").replace("_", "\_")
+
+2020-01-21 16:17:55,395|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\dispatch\dispatcher.py:85: DeprecationWarning: inspect.getargspec() is deprecated since Python 3.0, use inspect.signature() or inspect.getfullargspec()
+  argspec = inspect.getargspec(receiver)
+
+2020-01-21 16:17:55,475|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\db\models\options.py:79: DeprecationWarning: invalid escape sequence \.
+  self.installed = re.sub('\.models$', '', cls.__module__) in settings.INSTALLED_APPS
+
+2020-01-21 16:17:55,490|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\template\base.py:1108: DeprecationWarning: inspect.getargspec() is deprecated since Python 3.0, use inspect.signature() or inspect.getfullargspec()
+  params, varargs, varkw, defaults = getargspec(func)
+
+2020-01-21 16:17:55,493|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\itercompat.py:30: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+  return isinstance(x, collections.Iterator)
+
+2020-01-21 16:17:55,527|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\contrib\auth\models.py:381: DeprecationWarning: invalid escape sequence \w
+  validators.RegexValidator(re.compile('^[\w.@+-]+$'), _('Enter a valid username.'), 'invalid')
+
+2020-01-21 16:17:55,534|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\client.py:38: DeprecationWarning: invalid escape sequence \w
+  CONTENT_TYPE_RE = re.compile('.*; charset=([\w\d-]+);?')
+
+2020-01-21 16:17:55,563|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:729: DeprecationWarning: invalid escape sequence \S
+  _INDENT_RE = re.compile('^([ ]*)(?=\S)', re.MULTILINE)
+
+2020-01-21 16:17:55,564|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:1038: DeprecationWarning: invalid escape sequence \s
+  pat = re.compile('(^|.*:)\s*\w*("|\')')
+
+2020-01-21 16:17:55,565|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:1572: DeprecationWarning: invalid escape sequence \s
+  want = re.sub('(?m)^%s\s*?$' % re.escape(BLANKLINE_MARKER),
+
+2020-01-21 16:17:55,565|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:1576: DeprecationWarning: invalid escape sequence \s
+  got = re.sub('(?m)^\s*?$', '', got)
+
+2020-01-21 16:17:55,596|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\html.py:14: DeprecationWarning: invalid escape sequence \s
+  WHITESPACE = re.compile('\s+')
+
+2020-01-21 16:17:55,598|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\html_parser.py:17: DeprecationWarning: invalid escape sequence \s
+  tagfind = re.compile('([a-zA-Z][-.a-zA-Z0-9:_]*)(?:\s|/(?!>))*')
+
+2020-01-21 17:04:49,014|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\regex_helper.py:68: DeprecationWarning: invalid escape sequence \w
+  """
+
+2020-01-21 17:04:49,015|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\regex_helper.py:210: DeprecationWarning: invalid escape sequence \w
+  """
+
+2020-01-21 17:04:49,099|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\db\backends\__init__.py:817: DeprecationWarning: invalid escape sequence \%
+  return force_text(x).replace("\\", "\\\\").replace("%", "\%").replace("_", "\_")
+
+2020-01-21 17:04:49,100|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\db\backends\__init__.py:817: DeprecationWarning: invalid escape sequence \_
+  return force_text(x).replace("\\", "\\\\").replace("%", "\%").replace("_", "\_")
+
+2020-01-21 17:04:49,112|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\dispatch\dispatcher.py:85: DeprecationWarning: inspect.getargspec() is deprecated since Python 3.0, use inspect.signature() or inspect.getfullargspec()
+  argspec = inspect.getargspec(receiver)
+
+2020-01-21 17:04:49,194|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\db\models\options.py:79: DeprecationWarning: invalid escape sequence \.
+  self.installed = re.sub('\.models$', '', cls.__module__) in settings.INSTALLED_APPS
+
+2020-01-21 17:04:49,213|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\template\base.py:1108: DeprecationWarning: inspect.getargspec() is deprecated since Python 3.0, use inspect.signature() or inspect.getfullargspec()
+  params, varargs, varkw, defaults = getargspec(func)
+
+2020-01-21 17:04:49,217|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\itercompat.py:30: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+  return isinstance(x, collections.Iterator)
+
+2020-01-21 17:04:49,257|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\contrib\auth\models.py:381: DeprecationWarning: invalid escape sequence \w
+  validators.RegexValidator(re.compile('^[\w.@+-]+$'), _('Enter a valid username.'), 'invalid')
+
+2020-01-21 17:04:49,265|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\client.py:38: DeprecationWarning: invalid escape sequence \w
+  CONTENT_TYPE_RE = re.compile('.*; charset=([\w\d-]+);?')
+
+2020-01-21 17:04:49,301|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:729: DeprecationWarning: invalid escape sequence \S
+  _INDENT_RE = re.compile('^([ ]*)(?=\S)', re.MULTILINE)
+
+2020-01-21 17:04:49,301|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:1038: DeprecationWarning: invalid escape sequence \s
+  pat = re.compile('(^|.*:)\s*\w*("|\')')
+
+2020-01-21 17:04:49,302|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:1572: DeprecationWarning: invalid escape sequence \s
+  want = re.sub('(?m)^%s\s*?$' % re.escape(BLANKLINE_MARKER),
+
+2020-01-21 17:04:49,302|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:1576: DeprecationWarning: invalid escape sequence \s
+  got = re.sub('(?m)^\s*?$', '', got)
+
+2020-01-21 17:04:49,335|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\html.py:14: DeprecationWarning: invalid escape sequence \s
+  WHITESPACE = re.compile('\s+')
+
+2020-01-21 17:04:49,338|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\html_parser.py:17: DeprecationWarning: invalid escape sequence \s
+  tagfind = re.compile('([a-zA-Z][-.a-zA-Z0-9:_]*)(?:\s|/(?!>))*')
+
+2020-01-21 17:08:31,854|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\regex_helper.py:68: DeprecationWarning: invalid escape sequence \w
+  """
+
+2020-01-21 17:08:31,854|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\regex_helper.py:210: DeprecationWarning: invalid escape sequence \w
+  """
+
+2020-01-21 17:08:31,924|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\db\backends\__init__.py:817: DeprecationWarning: invalid escape sequence \%
+  return force_text(x).replace("\\", "\\\\").replace("%", "\%").replace("_", "\_")
+
+2020-01-21 17:08:31,925|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\db\backends\__init__.py:817: DeprecationWarning: invalid escape sequence \_
+  return force_text(x).replace("\\", "\\\\").replace("%", "\%").replace("_", "\_")
+
+2020-01-21 17:08:31,937|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\dispatch\dispatcher.py:85: DeprecationWarning: inspect.getargspec() is deprecated since Python 3.0, use inspect.signature() or inspect.getfullargspec()
+  argspec = inspect.getargspec(receiver)
+
+2020-01-21 17:08:32,009|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\db\models\options.py:79: DeprecationWarning: invalid escape sequence \.
+  self.installed = re.sub('\.models$', '', cls.__module__) in settings.INSTALLED_APPS
+
+2020-01-21 17:08:32,023|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\template\base.py:1108: DeprecationWarning: inspect.getargspec() is deprecated since Python 3.0, use inspect.signature() or inspect.getfullargspec()
+  params, varargs, varkw, defaults = getargspec(func)
+
+2020-01-21 17:08:32,027|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\itercompat.py:30: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+  return isinstance(x, collections.Iterator)
+
+2020-01-21 17:08:32,079|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\contrib\auth\models.py:381: DeprecationWarning: invalid escape sequence \w
+  validators.RegexValidator(re.compile('^[\w.@+-]+$'), _('Enter a valid username.'), 'invalid')
+
+2020-01-21 17:08:32,087|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\client.py:38: DeprecationWarning: invalid escape sequence \w
+  CONTENT_TYPE_RE = re.compile('.*; charset=([\w\d-]+);?')
+
+2020-01-21 17:08:32,115|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:729: DeprecationWarning: invalid escape sequence \S
+  _INDENT_RE = re.compile('^([ ]*)(?=\S)', re.MULTILINE)
+
+2020-01-21 17:08:32,115|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:1038: DeprecationWarning: invalid escape sequence \s
+  pat = re.compile('(^|.*:)\s*\w*("|\')')
+
+2020-01-21 17:08:32,116|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:1572: DeprecationWarning: invalid escape sequence \s
+  want = re.sub('(?m)^%s\s*?$' % re.escape(BLANKLINE_MARKER),
+
+2020-01-21 17:08:32,116|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:1576: DeprecationWarning: invalid escape sequence \s
+  got = re.sub('(?m)^\s*?$', '', got)
+
+2020-01-21 17:08:32,145|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\html.py:14: DeprecationWarning: invalid escape sequence \s
+  WHITESPACE = re.compile('\s+')
+
+2020-01-21 17:08:32,147|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\html_parser.py:17: DeprecationWarning: invalid escape sequence \s
+  tagfind = re.compile('([a-zA-Z][-.a-zA-Z0-9:_]*)(?:\s|/(?!>))*')
+
+2020-01-21 17:10:20,361|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\regex_helper.py:68: DeprecationWarning: invalid escape sequence \w
+  """
+
+2020-01-21 17:10:20,361|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\regex_helper.py:210: DeprecationWarning: invalid escape sequence \w
+  """
+
+2020-01-21 17:10:20,432|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\db\backends\__init__.py:817: DeprecationWarning: invalid escape sequence \%
+  return force_text(x).replace("\\", "\\\\").replace("%", "\%").replace("_", "\_")
+
+2020-01-21 17:10:20,432|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\db\backends\__init__.py:817: DeprecationWarning: invalid escape sequence \_
+  return force_text(x).replace("\\", "\\\\").replace("%", "\%").replace("_", "\_")
+
+2020-01-21 17:10:20,441|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\dispatch\dispatcher.py:85: DeprecationWarning: inspect.getargspec() is deprecated since Python 3.0, use inspect.signature() or inspect.getfullargspec()
+  argspec = inspect.getargspec(receiver)
+
+2020-01-21 17:10:20,514|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\db\models\options.py:79: DeprecationWarning: invalid escape sequence \.
+  self.installed = re.sub('\.models$', '', cls.__module__) in settings.INSTALLED_APPS
+
+2020-01-21 17:10:20,528|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\template\base.py:1108: DeprecationWarning: inspect.getargspec() is deprecated since Python 3.0, use inspect.signature() or inspect.getfullargspec()
+  params, varargs, varkw, defaults = getargspec(func)
+
+2020-01-21 17:10:20,532|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\itercompat.py:30: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+  return isinstance(x, collections.Iterator)
+
+2020-01-21 17:10:20,566|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\contrib\auth\models.py:381: DeprecationWarning: invalid escape sequence \w
+  validators.RegexValidator(re.compile('^[\w.@+-]+$'), _('Enter a valid username.'), 'invalid')
+
+2020-01-21 17:10:20,574|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\client.py:38: DeprecationWarning: invalid escape sequence \w
+  CONTENT_TYPE_RE = re.compile('.*; charset=([\w\d-]+);?')
+
+2020-01-21 17:10:20,604|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:729: DeprecationWarning: invalid escape sequence \S
+  _INDENT_RE = re.compile('^([ ]*)(?=\S)', re.MULTILINE)
+
+2020-01-21 17:10:20,605|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:1038: DeprecationWarning: invalid escape sequence \s
+  pat = re.compile('(^|.*:)\s*\w*("|\')')
+
+2020-01-21 17:10:20,605|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:1572: DeprecationWarning: invalid escape sequence \s
+  want = re.sub('(?m)^%s\s*?$' % re.escape(BLANKLINE_MARKER),
+
+2020-01-21 17:10:20,605|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\_doctest.py:1576: DeprecationWarning: invalid escape sequence \s
+  got = re.sub('(?m)^\s*?$', '', got)
+
+2020-01-21 17:10:20,635|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\test\html.py:14: DeprecationWarning: invalid escape sequence \s
+  WHITESPACE = re.compile('\s+')
+
+2020-01-21 17:10:20,637|WARNING|py.warnings|C:\Users\complone\AppData\Roaming\Python\Python37\site-packages\django\utils\html_parser.py:17: DeprecationWarning: invalid escape sequence \s
+  tagfind = re.compile('([a-zA-Z][-.a-zA-Z0-9:_]*)(?:\s|/(?!>))*')
+
